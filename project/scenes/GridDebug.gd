@@ -8,10 +8,9 @@ func _process(delta):
 func _draw():
 	var LINE_COLOR = Color(1.0, 1.0, 1.0, 0.4)
 	var LINE_WIDTH = 2
-	var parent_pos = get_parent().position
-	parent_pos.y += 16
-
-	var grid_pos = get_parent().get_parent().world_to_map(parent_pos)
+	var player_pos = get_parent().position
+	player_pos.y += 16
+	var grid_pos = get_parent().get_parent().world_to_map(player_pos)
 	var rect = Rect2(to_local(grid_pos * TILE_SIZE), TILE_SIZE)
-	print("rect=%s" % rect)
+	var a = 1
 	draw_rect(rect, LINE_COLOR, false)
