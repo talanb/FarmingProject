@@ -7,10 +7,7 @@ path="res://.import/plowed_soil.png-816473d620cc9c208957db900e265cba.stex"
 [deps]
 
 source_file="res://assets/plowed_soil.png"
-source_md5="1bb22966542f7b21468e278ec9d9fd88"
-
 dest_files=[ "res://.import/plowed_soil.png-816473d620cc9c208957db900e265cba.stex" ]
-dest_md5="d3a4b420d9f29f6adc611e4955865674"
 
 [params]
 
